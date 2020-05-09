@@ -116,6 +116,11 @@ http://localhost:8013/
 username: root  
 password: root
 
-## Redis
+## Production
 
-It comes with Redis. It runs on default port `6379`.
+https://docs.docker.com/compose/production/
+
+```shell
+docker-compose -f docker-compose.yml -f production.yml up -d
+```
+
